@@ -23,7 +23,7 @@
 
    ```text
    export ISTIO_VERSION=1.7.3
-   curl -sL https://istio.io/downloadIstioctl | sh -
+   curl -L https://istio.io/downloadIstio | sh -
    chmod +x istio-1.7.3/bin/istioctl
    mv istio-1.7.3/bin/istioctl /usr/local/bin/
 
